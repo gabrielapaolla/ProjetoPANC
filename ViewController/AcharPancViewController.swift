@@ -28,6 +28,6 @@ class AcharPancViewController: UIViewController {
         super.viewDidLoad()
     
        
-print("lalala")
+print("losidjfoijd")
     }
 }
