@@ -19,15 +19,11 @@ class AcharPancViewController: UIViewController {
     let beldroega = Panc (ilustracao: UIImage, nome: "Beldroega", nomecientifico: "Portulaca Oleraceae")    
     let capeba = Panc (ilustracao: UIImage, nome: "Capeba Pequena", nomecientifico: "Piper Marginatum")
     let tamarindo = Panc (ilustracao: UIImage, nomePanc: "Tamarindo", nomecientifico: "Tamarindus Indica")
-    
-    let a = "oi"
-    
+        
     lazy var pancs: [Panc] = [beldroega, capeba, tamarindo]
     
     override func viewDidLoad() {
         super.viewDidLoad()
     
-       
-print("losidjfoijd")
     }
 }
