@@ -27,5 +27,7 @@ class AcharPancViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+       
+print("lalala")
     }
 }
