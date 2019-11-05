@@ -6,4 +6,13 @@
 //  Copyright © 2019 Natalia Cruz. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct Achar {
+    
+    var ilustra: UIImage
+    var nomeP: UIImage
+    var nomeC: UIImage
+    var caract: UIImage
+
+}
