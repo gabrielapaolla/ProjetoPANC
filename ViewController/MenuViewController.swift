@@ -10,9 +10,10 @@ import UIKit
 
 class MenuViewController: UIViewController {
 
+    @IBOutlet weak var label: UIImageView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     

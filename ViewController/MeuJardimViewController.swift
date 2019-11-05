@@ -9,22 +9,37 @@
 import UIKit
 
 class MeuJardimViewController: UIViewController {
+    
+    @IBOutlet weak var proximo: UIButton!
+    @IBOutlet weak var panc1: UIButton!
+    
+    lazy var plantas: [Info] = [Info(imagem: #imageLiteral(resourceName: "pancs_beldroega p"), nome: #imageLiteral(resourceName: "beldroega preto"), ben: #imageLiteral(resourceName: "carac.png"), rec: #imageLiteral(resourceName: "benef.png"))]
+    
+    var plantaEscolhida = 0
+
+    let panc: [UIImage] = [#imageLiteral(resourceName: "pancs_beldroega p")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    
+        
         // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    @IBAction func irParaProxima(_ sender: Any) {
+
+   }
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let infoVC = segue.destination as? InfoPancViewController{
+            print(plantas)
+            infoVC.panc = plantas[plantaEscolhida]
+        }
     }
-    */
+    
 
 }
+

@@ -10,21 +10,26 @@ import UIKit
 
 class CardDaPlantaViewController: UIViewController {
 
+    var panc: AchouPanc!
+    
+    @IBOutlet weak var ilustracao: UIImageView!
+    @IBOutlet weak var nome: UIImageView!
+    @IBOutlet weak var nomeCientifico: UIImageView!
+    @IBOutlet weak var guardar: UIButton!
+   
+    
+    let beldroega = AchouPanc (ilustracao: #imageLiteral(resourceName: "pancs_beldroega p"), nome: #imageLiteral(resourceName: "achou.png"), caract: #imageLiteral(resourceName: "Gabriela compartilhou um rascunho com você 2.png"))
+    
+    lazy var pancslist: [AchouPanc] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
+        ilustracao.image = panc.ilustracao
+        nome.image = panc.nome
+        nomeCientifico.image = panc.caract
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+

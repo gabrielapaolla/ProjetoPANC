@@ -9,22 +9,30 @@
 import UIKit
 
 class InfoPancViewController: UIViewController {
-
+    
+    var panc: Info!
+    
+    @IBOutlet weak var nome: UIImageView!
+    @IBOutlet weak var imagemPanc: UIImageView!
+    @IBOutlet weak var informacoes1: UIImageView!
+    @IBOutlet weak var informacoes2: UIImageView!
+    
+    let beldroega = Info (imagem: #imageLiteral(resourceName: "beldroega cor"), nome: #imageLiteral(resourceName: "beldroega preto"), ben: #imageLiteral(resourceName: "carac.png"), rec: #imageLiteral(resourceName: "benef.png"))
+    
+    lazy var list: [Info] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        imagemPanc.image = panc.imagem
+        nome.image = panc.nome
+        informacoes1.image = panc.ben
+        informacoes2.image = panc.rec
+        
         // Do any additional setup after loading the view.
     }
+
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
 }

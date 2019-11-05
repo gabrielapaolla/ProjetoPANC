@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1107A04236B001E009FADAB /* Histotia1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1107A03236B001E009FADAB /* Histotia1ViewController.swift */; };
+		E1107A06236B0054009FADAB /* Historia2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1107A05236B0054009FADAB /* Historia2ViewController.swift */; };
+		E1DE2DA2235F4D1A00DB6171 /* structCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE2DA1235F4D1A00DB6171 /* structCard.swift */; };
+		E1DE2DA42361E18000DB6171 /* acharPanc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE2DA32361E18000DB6171 /* acharPanc.swift */; };
+		E1DE2DA62362457E00DB6171 /* structInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE2DA52362457E00DB6171 /* structInfo.swift */; };
 		E1E870862358A39F00226DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E870852358A39F00226DE9 /* AppDelegate.swift */; };
 		E1E870882358A39F00226DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E870872358A39F00226DE9 /* ViewController.swift */; };
 		E1E8708B2358A39F00226DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E870892358A39F00226DE9 /* Main.storyboard */; };
@@ -21,7 +26,6 @@
 		E1E870C22358B29C00226DE9 /* CardDaPlantaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E870C12358B29C00226DE9 /* CardDaPlantaViewController.swift */; };
 		E1E870C42358B3E000226DE9 /* CheckGuardarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E870C32358B3E000226DE9 /* CheckGuardarViewController.swift */; };
 		E1E870C62358B46800226DE9 /* InfoPancViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E870C52358B46800226DE9 /* InfoPancViewController.swift */; };
-		E1E870C82358DD3700226DE9 /* PancAcharStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E870C72358DD3700226DE9 /* PancAcharStructViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1107A03236B001E009FADAB /* Histotia1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Histotia1ViewController.swift; sourceTree = "<group>"; };
+		E1107A05236B0054009FADAB /* Historia2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historia2ViewController.swift; sourceTree = "<group>"; };
+		E1DE2DA1235F4D1A00DB6171 /* structCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structCard.swift; sourceTree = "<group>"; };
+		E1DE2DA32361E18000DB6171 /* acharPanc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acharPanc.swift; sourceTree = "<group>"; };
+		E1DE2DA52362457E00DB6171 /* structInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structInfo.swift; sourceTree = "<group>"; };
 		E1E870822358A39F00226DE9 /* ProjetoPanc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoPanc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E870852358A39F00226DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1E870872358A39F00226DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +71,6 @@
 		E1E870C12358B29C00226DE9 /* CardDaPlantaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDaPlantaViewController.swift; sourceTree = "<group>"; };
 		E1E870C32358B3E000226DE9 /* CheckGuardarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckGuardarViewController.swift; sourceTree = "<group>"; };
 		E1E870C52358B46800226DE9 /* InfoPancViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPancViewController.swift; sourceTree = "<group>"; };
-		E1E870C72358DD3700226DE9 /* PancAcharStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PancAcharStructViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,17 +124,21 @@
 				E1E870852358A39F00226DE9 /* AppDelegate.swift */,
 				E1E870872358A39F00226DE9 /* ViewController.swift */,
 				E1E870892358A39F00226DE9 /* Main.storyboard */,
+				E1107A05236B0054009FADAB /* Historia2ViewController.swift */,
+				E1107A03236B001E009FADAB /* Histotia1ViewController.swift */,
 				E1E870C52358B46800226DE9 /* InfoPancViewController.swift */,
 				E1E870C32358B3E000226DE9 /* CheckGuardarViewController.swift */,
 				E1E870C12358B29C00226DE9 /* CardDaPlantaViewController.swift */,
 				E1E870BF2358B24D00226DE9 /* MapaViewController.swift */,
 				E1E870BD2358B22600226DE9 /* AcharPancViewController.swift */,
-				E1E870C72358DD3700226DE9 /* PancAcharStructViewController.swift */,
 				E1E870BB2358B20B00226DE9 /* MeuJardimViewController.swift */,
 				E1E870B32358A85D00226DE9 /* MenuViewController.swift */,
 				E1E8708C2358A3A200226DE9 /* Assets.xcassets */,
 				E1E8708E2358A3A200226DE9 /* LaunchScreen.storyboard */,
 				E1E870912358A3A200226DE9 /* Info.plist */,
+				E1DE2DA52362457E00DB6171 /* structInfo.swift */,
+				E1DE2DA1235F4D1A00DB6171 /* structCard.swift */,
+				E1DE2DA32361E18000DB6171 /* acharPanc.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -282,14 +294,18 @@
 			files = (
 				E1E870BC2358B20B00226DE9 /* MeuJardimViewController.swift in Sources */,
 				E1E870C42358B3E000226DE9 /* CheckGuardarViewController.swift in Sources */,
+				E1107A06236B0054009FADAB /* Historia2ViewController.swift in Sources */,
 				E1E870C22358B29C00226DE9 /* CardDaPlantaViewController.swift in Sources */,
-				E1E870C82358DD3700226DE9 /* PancAcharStructViewController.swift in Sources */,
 				E1E870882358A39F00226DE9 /* ViewController.swift in Sources */,
 				E1E870C62358B46800226DE9 /* InfoPancViewController.swift in Sources */,
+				E1DE2DA62362457E00DB6171 /* structInfo.swift in Sources */,
 				E1E870C02358B24D00226DE9 /* MapaViewController.swift in Sources */,
 				E1E870B42358A85D00226DE9 /* MenuViewController.swift in Sources */,
 				E1E870BE2358B22600226DE9 /* AcharPancViewController.swift in Sources */,
 				E1E870862358A39F00226DE9 /* AppDelegate.swift in Sources */,
+				E1DE2DA2235F4D1A00DB6171 /* structCard.swift in Sources */,
+				E1107A04236B001E009FADAB /* Histotia1ViewController.swift in Sources */,
+				E1DE2DA42361E18000DB6171 /* acharPanc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,12 +481,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ProjetoPanc/Info.plist;
+				DEVELOPMENT_TEAM = RK7D3V77UZ;
+				INFOPLIST_FILE = "$(SRCROOT)/ViewController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = projeto.ProjetoPanc;
+				PRODUCT_BUNDLE_IDENTIFIER = projeto.ProjetoPanc.oi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,12 +499,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ProjetoPanc/Info.plist;
+				DEVELOPMENT_TEAM = RK7D3V77UZ;
+				INFOPLIST_FILE = "$(SRCROOT)/ViewController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = projeto.ProjetoPanc;
+				PRODUCT_BUNDLE_IDENTIFIER = projeto.ProjetoPanc.oi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
